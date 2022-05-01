@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* PARTE DO HEADER */
+
+.ContainerRojoDiv{
+    display: flex;
+    justify-content: space-evenly;
+    height: 134px;
+    align-items: center;
+}
+
+.ContainerLetras{
+    width: 57%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Rojinho{
+    height: 68px;
+}
+.Names_a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* PARTE COMPOPNENTES LOGO */
+.mano{
+    background-color: #232323;
+    height: 1000px;
+    overflow: hidden
+}
+
+.Cima{
+    height: auto
+}
+
+.ContainerLogo{
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+}
+
+.Rojo{
+    position: absolute;
+    margin-top: 99px;
+    margin-left: 3px;
+}
+
+.Letra-logo {
+    height: 11vw;
+    width: 14vw;
+    pointer-events: none;
+    /* animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: Letra-logo; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Letra-logo {
+      animation: Letra-logo infinite 50s linear;
+    }
+  }
+
+@keyframes Letra-logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Parte components Pirulas */
+.Pirula{
+    display: flex;
+    justify-content: space-between;
+    width: 101vw;
+    height: 10vw;
+}
+
+
+/* PARTE DO LOGIN */
+
+.usu_login{
+    text-transform: uppercase;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 109px;
+    margin-top: 20px;
+    color: #232323;
+
+}
+
+
+.LOGIN_log{
+    border: none;
+    width: 38%;
+    border-bottom: 3px solid #ffffff;
+    background: transparent;
+    font-size: 2em;
+    /* cursor: pointer; */
+    color: #ffffff;
+}
+
+.LOGIN_log::placeholder {
+    color: #ffffff;
+}
+
+.login{
+    display: flex;
+    height: 27%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.CorAzul{
+      color: #1C8FD0;
+}
+
+.CorVermelha{
+    color: #C00000;
+}
+
+.Div_Matrix{
+    display: flex;
+    justify-content: center;
+}
+
+.BotãoLogin{
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 12%;
+    height: 24%;
+    background: transparent;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.BotãoLogin:hover,
+.BotãoLogin:focus {
+    border: 3px solid #FF1B00;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 12%;
+    height: 24%;
+    background: transparent;
+    color: #FF1B00;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------1920----------------------------------------------------- */
+
+@media (max-width: 1920px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+        
+    }
+    
+    /* PARTE COMPOPNENTES LOGO */
+    .mano{
+        background-color: #232323;
+        height: 1000px;
+        overflow: hidden
+    }
+    
+    .Cima{
+        height: auto
+    }
+    
+    .ContainerLogo{
+        background-color: #232323;
+        display: flex;
+        justify-content: center;
+        height: 11vw;
+    }
+    
+    .Rojo{
+        position: absolute;
+        margin-top: 34px;
+        margin-left: 3px;
+        height: 102px;
+    }
+    
+    .Letra-logo {
+        height: 20vws;
+        width: 14vw;
+        pointer-events: none;
+        /* animation-duration: 50s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-name: Letra-logo; */
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .Letra-logo {
+          animation: Letra-logo infinite 50s linear;
+        }
+      }
+    
+    @keyframes Letra-logo {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    /* Parte components Pirulas */
+    .Pirula{
+        display: flex;
+        justify-content: space-between;
+        width: 102vw;
+        height: 15vw;
+    }
+    
+    .lnr-eye {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    
+    /* PARTE DO LOGIN */
+    
+    .usu_login{
+        text-transform: uppercase;
+        font-family: Sarabun;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 109px;
+        margin-top: 20px;
+        color: #232323;
+    
+    }
+    
+    
+    .LOGIN_log{
+        border: none;
+        width: 38%;
+        border-bottom: 3px solid #ffffff;
+        background: transparent;
+        font-size: 2em;
+        /* cursor: pointer; */
+        color: #ffffff;
+    }
+    
+    .LOGIN_log::placeholder {
+        color: #ffffff;
+    }
+    
+    .login{
+        display: flex;
+        height: 27%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .CorAzul{
+          color: #1C8FD0;
+    }
+    
+    .CorVermelha{
+        color: #C00000;
+    }
+    
+    .Div_Matrix{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .BotãoLogin{
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 13px;
+        width: 12%;
+        height: 24%;
+        background: transparent;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        cursor: pointer;
+        transition: border 1s;
+    }
+
+    .BotãoLogin:hover,
+    .BotãoLogin:focus {
+        border: 3px solid #FF1B00;
+        box-sizing: border-box;
+        border-radius: 13px;
+        width: 12%;
+        height: 24%;
+        background: transparent;
+        color: #FF1B00;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
